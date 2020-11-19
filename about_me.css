@@ -1,0 +1,190 @@
+*
+{
+    margin: 0px;
+    padding: 0;
+}
+body
+{
+    font-family: "Roboto" sans-serif;
+     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.jpg);
+     background-size: cover;
+    background-position: center center;
+    
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+.navbar{
+    background-image: linear-gradient(to right, black,black, indigo);
+    padding: 0 !important;
+
+}
+.navbar-brand img{
+   height: 60px;
+   padding-left: 40px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+    font-size: 20px;
+    margin-right: 20px;
+    
+}
+.fa-bars
+{
+    color:white;
+    font-size: 70px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+    margin-right:4%;
+}
+
+.heading{
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+#bio{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.jpg);
+    height: 160vh;
+
+}
+.text1{
+    padding-top: 5%;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    text-align: justify;
+    font-weight: 500;
+}
+.list {
+    color: white;
+    font-size:  22px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 2;
+    font-weight: 520;
+    list-style:circle;
+    text-align: left;
+}
+
+.container1 {
+  position: relative;
+  width: 50%;
+}
+
+.image1 {
+  display: block;
+  width: 60%;
+  margin-top:16%;
+  border-radius: 10px;
+  filter: brightness(0.95);
+  filter: saturate(1.3);
+  border: 5px solid darkblue;
+}
+.buttons{
+    padding-top: 4%;
+    text-align: center;
+    
+}
+.btn-primary {
+    font-size: 32px !important;
+    background-color: transparent!important;
+    border: 3px solid white !important;
+    font-weight: 600 !important;
+    padding: 4px 30px !important;
+    margin-bottom: 1%;
+    display: block !important;
+    margin-left: 30% !important;
+    margin-right: 30% !important;
+    
+}
+
+.btn-primary:hover{
+    background-color:darkblue!important;
+    transition: all 0.5s ease-in !important;
+
+}
+.question{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    padding-top: 5%;
+    font-size: 50px;
+    font-weight: 700;
+}
+@media (orientation:portrait){
+    .image1{
+        margin-top: 60%;
+        width: 100%;
+    }
+    #bio{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.jpg);
+    height: 240vh; 
+    background-size: cover;
+    background-position: center;
+ 
+
+}
+    .text1, .list{
+        margin-top: 5%;
+        font-size: 60px;
+        font-weight: 400;
+        text-align: justify;
+        width: 120%;
+    }
+    .heading{
+        font-size: 60px;
+        text-align: left;
+    }
+    .image1{
+    margin-top: 10%;
+    width: 70%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    }
+    .btn-primary{
+        font-size: 70px !important;
+        display: block;
+        padding: 4px 0px !important;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+    }
+    .question{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 70px;
+    font-weight: 700;
+}
+    .navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+    font-size: 50px;
+    margin-right: 20px;
+    
+}
+    .navbar-brand img{
+   height: 100px;
+   padding-left: 40px;
+
+}
+    .container{
+        margin-left: 5% !important;
+        margin-right: 0% !important;
+       
+    }
+}

@@ -1,0 +1,138 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: "Roboto" sans-serif;
+     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.jpg);
+    background-position: center center;
+    background-size: cover;
+   
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+.navbar{
+    background-image: linear-gradient(to right, black,black, indigo);
+    padding: 0 !important;
+
+}
+.navbar-brand img{
+   height: 60px;
+   padding-left: 40px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+    font-size: 20px;
+    margin-right: 20px;
+    
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 70px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+    margin-right: 4%;
+}
+
+.heading{
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 45px;
+    text-decoration: underline;
+    
+}
+.text1{
+    font-size: 24px;
+    color: white;
+    margin-top: 5%;
+    text-align: justify;
+    
+}
+.image1{
+    border-radius: 10px;
+    filter: saturate(1.8);
+    margin-top: 3%;
+    border:3px solid darkorange;
+    height: 80%
+    
+}
+.image2{
+    border-radius: 10px;
+    filter: saturate(1.6);
+    margin-top: 3%;
+    border:3px solid darkorange;
+    width: 50%;
+    margin-left: 20%;
+    
+}
+.text2{
+    font-size: 24px;
+    color: white;
+    margin-top: 2%;
+    text-align:justify;
+    margin-bottom: 10%;
+    
+}
+@media (orientation:portrait){
+    
+
+    .heading{
+        font-size:80px;
+    }
+    .text1, .text2{
+        font-size: 60px;
+        width: 120%;
+    }
+    .row{
+        width: 100%;
+        margin-top: 10%;
+        
+    }
+    .image2{
+        display: none;
+    }
+    .image1{
+        width: 120%;
+        height: auto;
+        margin-bottom: 3%;
+        float: center;
+        
+    }
+    .navbar-brand img{
+   height: 80px;
+   padding-left: 40px;
+}
+        .navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+    font-size: 50px;
+    margin-right: 20px;
+    
+}
+        .navbar-brand img{
+   height: 100px;
+   padding-left: 40px;
+}
+        .container{
+        margin-left: 5% !important;
+        
+    }
+}
